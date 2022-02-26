@@ -15,7 +15,7 @@ public class MenuMenu : MonoBehaviour
         SceneManager.LoadSceneAsync(sceneIndex);
     }
 
-    public void QuiteGame()
+    public void QuitGame()
     {
         Debug.Log("Quit");
         Application.Quit();
